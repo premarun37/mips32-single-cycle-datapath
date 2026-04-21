@@ -2,9 +2,9 @@
 
 module tb_data_memory;
 
-    reg         clk;
-    reg         memread;
-    reg         memwrite;
+    reg clk;
+    reg memread;
+    reg memwrite;
     reg  [31:0] address;
     reg  [31:0] writedata;
     wire [31:0] readdata;
